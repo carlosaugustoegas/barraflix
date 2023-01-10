@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>League of Legends</title>
+    <link rel="stylesheet" href="css/league.css" />
+  </head>
+
+  <body>
+    <div class="rotation-container">
+      <div class="rotation-header">
+        <img
+          src="/imagens/leagueoflegends.png"
+          width="150px"
+          alt="League of Legends"
+          title="League of Legends"
+        />
+      </div>
+      <div class="rotation-main"></div>
+
+      <div class="rotation-footer">
+        <div class="rotationFooterTop">
+          <h1>Rotação Grátis</h1>
+        </div>
+        <div class="rotationFooterBottom">
+          <div class="nav-left">
+            <img
+              id="slide-left"
+              class="arrow-nav"
+              src="/icones/arrow-left.svg"
+              alt="Anterior"
+            />
+          </div>
+          <div class="rotation-container-footer"></div>
+          <div class="nav-right">
+            <img
+              id="slide-right"
+              class="arrow-nav"
+              src="/icones/arrow-right.svg"
+              alt="Próximo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <video class="video-bg" loop="" muted="" autoplay="">
+        <source src="/videos/video_back.webm" type="video/webm" />
+        <source src="/videos/video_back.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <section id="menu" class="menu-container">
+      <div class="class-image">
+        <img src="/imagens/Fighter.png" width="600px" alt="Yasuo" title="Yasuo">
+      </div>
+      <nav  class="menu">
+        <a id="Todos" class="menuItems" menuDestaque="">Todos</a>
+        <a id="Assassin" class="menuItems">Assassinos</a>
+        <a id="Fighter" class="menuItems">Lutadores</a>
+        <a id="Mage" class="menuItems">Magos</a>
+        <a id="Marksman" class="menuItems">Atiradores</a>
+        <a id="Support" class="menuItems">Suportes</a>
+        <a id="Tank" class="menuItems">Tanks</a>
+      </nav>
+    </section>
+   
+    <main class="main">
+      <div class="cards-container"></div>
+    </main>
+
+    <footer></footer>
+
+    <script src="js/league.js"></script>
+  </body>
+</html>
